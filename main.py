@@ -3,7 +3,8 @@ from telebot import types
 import random
 
 # ضع التوكن الخاص بك هنا بين العلامتين
-TOKEN = 8245385209:AAFbYtj4vEAk5cZBA8WzLA0UchJqt1eZfBo
+TOKEN = '8245385209:AAFbYtj4vEAk5cZBA8WzLA0UchJqt1eZfBo' 
+
 bot = telebot.TeleBot(TOKEN)
 
 # تخزين بيانات الألعاب في ذاكرة البوت (خفيف جداً)
